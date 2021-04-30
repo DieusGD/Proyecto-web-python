@@ -37,7 +37,7 @@ def coord():
         len(x1g.get()) !=0,len(x2g.get()) !=0,len(y1g.get()) !=0,len(y2g.get()) !=0,len(z1g.get()) !=0,len(z2g.get()) !=0
 
     def leer(): 
-        if verificar == True:
+        if verificar:
             x1 = x1g.getint()
             x2 = x2g.getint()
             y1 = y1g.getint()
