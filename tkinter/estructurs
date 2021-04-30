@@ -1,0 +1,25 @@
+idea:
+crear aplicacion para mom, de pscologia
+que va a hacer?
+buscar, crear:
+    apuntes
+    conseptos
+
+conceptos:
+que deseas hacer?
+buscar, agregar o eliminar
+buscardef:
+    introduce concepto
+    leer concepto
+
+buscar:
+    buscardef
+    si concepto esta en lista de conceptos:
+        imprimir el valor de concepto
+    si no:
+        imprimir 'no se encontro nada'
+
+agregar:
+    buscardef
+    for concepto in conceptos:
+        if concepto == 

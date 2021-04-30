@@ -1,0 +1,19 @@
+inicio:
+que deseas hacer?
+ver tablas:
+    1 ver productos
+    2 ver clientes
+    3 ver ventas
+
+    1:
+    opcion(a=agregar, b=borrar)
+        a1 agregar producto
+        a2 editar producto
+        a3 buscar producto
+        a4 eliminar producto
+        b1 crear nueva lista de productos
+    eliminar lista
+
+agregar tiene 2 clicks
+primero para clientes
+segundo para productos
