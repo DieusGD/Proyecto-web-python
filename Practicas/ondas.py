@@ -1,14 +1,12 @@
-#busco analizar como resolver un problema de ondas
+def saludar():
+    saludar.hola = str(input("*Cual es tu nombre:  "))
+    saludar.resp = saludar.hola
+    print("Hola, " + saludar.resp + ", te estoy saludando desde la función saludar() " \
+          "del módulo saludos")
 
-velSonido = 340
-velObs = 4
-velFuente = 20
-Frecuencia = 1000
+class Saludo():
+    def __init__(self):
+        print("Hola, te estoy saludando desde el __init__"  \
+              "de la clase Saludo")
 
-temp = velSonido - velObs
-temp2 = velSonido - velFuente
-temp3 = temp/temp2
-frecFin = Frecuencia*temp3
-print(frecFin)2
-
-#pruevba de cambviosd en pagina 
+saludar()
